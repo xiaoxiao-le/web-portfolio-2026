@@ -1,0 +1,2 @@
+import{useRef}from'react';import'./SpotlightCard.css';
+export default function SpotlightCard({children,className='',spotlightColor='rgba(86,104,255,.28)'}){const ref=useRef(null);function move(e){const r=ref.current.getBoundingClientRect();ref.current.style.setProperty('--mouse-x',e.clientX-r.left+'px');ref.current.style.setProperty('--mouse-y',e.clientY-r.top+'px');ref.current.style.setProperty('--spotlight-color',spotlightColor)}return <article ref={ref} onMouseMove={move} className={'card-spotlight '+className}>{children}</article>}

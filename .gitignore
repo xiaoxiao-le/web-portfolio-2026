@@ -1,0 +1,10 @@
+node_modules/
+.pnpm-store/
+dist/
+.DS_Store
+audit-*/
+figma-*.json
+
+# Earlier standalone prototype files; the production app lives in src/.
+script.js
+styles.css

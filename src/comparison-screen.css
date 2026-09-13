@@ -1,0 +1,7 @@
+.comparison-source-body{position:absolute;left:80px;top:120px;width:1440px;color:#fff}
+.comparison-source-head{display:grid;grid-template-columns:700px 700px;gap:40px;height:60px;margin-bottom:32px}
+.comparison-source-head h1{margin:0;font-size:32px;line-height:46px;font-weight:700}
+.comparison-source-grid{display:grid;grid-template-columns:700px 700px;gap:40px;height:700px}
+.comparison-source-grid article{height:700px;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:none;background:#0a0a0a}
+.comparison-source-grid article::-webkit-scrollbar{display:none}
+.comparison-source-grid img{display:block;width:700px;height:700px;object-fit:fill}

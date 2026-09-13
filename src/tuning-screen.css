@@ -1,0 +1,13 @@
+.tuning-source-art{position:absolute;left:909px;top:48px;width:627px;height:354px;object-fit:fill;object-position:bottom}
+.tuning-source-body{position:absolute;left:80px;top:120px;width:1440px;display:flex;flex-direction:column;gap:32px}
+.tuning-source-intro{position:relative;width:787px;height:264px}
+.tuning-source-intro h1{margin:0;font-size:33.508px;font-weight:700;line-height:normal}
+.tuning-source-intro p{position:absolute;left:0;top:57px;width:787px;margin:0;font-size:20.105px;line-height:1.7;opacity:.5}
+.tuning-source-cards{display:grid;grid-template-columns:repeat(4,336px);gap:32px;height:389px}
+.tuning-source-cards article{position:relative;height:406.933px;border-radius:37.333px;background:linear-gradient(to bottom,rgba(255,255,255,.08),rgba(0,0,0,0))}
+.tuning-source-icon{position:absolute;left:37.333px;top:37.333px;width:56px;height:56px;border-radius:18.667px;background:rgba(255,255,255,.01);display:grid;place-items:center}
+.tuning-source-icon img{width:33.6px;height:33.6px;object-fit:contain}
+.tuning-source-cards article:first-child img{width:31.733px;height:31.733px}
+.tuning-source-cards h2{position:absolute;left:37.333px;top:130.667px;margin:0;font-size:28px;font-weight:700;line-height:normal}
+.tuning-source-cards p{position:absolute;left:37.333px;top:182.933px;width:261.333px;margin:0;font-size:18.667px;font-family:Montserrat,'Noto Sans SC',sans-serif;line-height:1.7;opacity:.3}
+.tuning-source-conclusion{margin:0;font-size:24px;line-height:1.45}
